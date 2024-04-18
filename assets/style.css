@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( 156deg, #151b27 51.04%, #1a1e27 51.5%);
+    color: #fcffff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 5vh 10vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo {
+    font-size: 50px;
+    color: orange;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    list-style-type: none;
+}
+
+.menu ul li a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+   color: #faffff;
+}
+
+main {
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+main .title {
+    font-size: 50px;
+}
+
+.main-container {
+    padding: 40px 40px 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.right-side--img  {
+    display: block;
+    width: 100%;
+}
+
+.right-side--img img  {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+}
+
+.leftside-desc h2 {
+    padding: 20px 20px;
+    color: orange;
+}
+
+.leftside-desc span {
+    letter-spacing: 2px;
+}
+
+
+.contato {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.contato img {
+    border-radius: 50%;
+    width: 400px;
+    height: 500px;
+    margin-top: 300px;
+}
+
+.zap {
+    margin-top: 400px;
+    margin-left: 100px;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.zap h2 {
+    color: orange;
+    padding: 10px;
+}
+
+.zap span {
+    padding: 10px;
+}
