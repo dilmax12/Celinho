@@ -14,8 +14,6 @@
 /=======================================================================*/
 
 body {
-    width: 100vw;
-    height: 100vh;
     background: linear-gradient( 156deg, #151b27 51.04%, #1a1e27 51.5%);
     color: #fcffff;
     font-size: 18px;
@@ -104,8 +102,6 @@ main .title {
 /=======================================================================*/
 
 .contato {
-    width: 100vw;
-    height: 100vh;
     display: flex;
 }
 
@@ -121,6 +117,12 @@ main .title {
     padding: 10px;
     font-size: 22px;
     letter-spacing: 2px;
+}
+
+.zap img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 .zap h2 {
     color: orange;
@@ -150,5 +152,6 @@ main .title {
     .zap {
         margin-top: 80px;
         margin-left: 0px;
+        margin-bottom: 80px;
     }
 }
