@@ -93,14 +93,13 @@ main .title {
     border-radius: 50%;
     width: 400px;
     height: 500px;
-    margin-top: 300px;
 }
 
 .zap {
-    margin-top: 400px;
+    margin-top: 100px;
     margin-left: 100px;
     padding: 10px;
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 2px;
 }
 .zap h2 {
@@ -110,4 +109,24 @@ main .title {
 
 .zap span {
     padding: 10px;
+}
+
+@media (min-width:320px) and (max-width:1600px) {
+
+    /* Inicio */
+
+    main {
+        flex-direction: column-reverse;
+    }
+
+
+    .contato {
+    flex-direction: column;
+    margin: 0px;
+    }
+
+    .zap {
+        margin-top: 80px;
+        margin-left: 0px;
+    }
 }
