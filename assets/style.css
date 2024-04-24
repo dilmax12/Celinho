@@ -38,22 +38,6 @@ header .logo {
     color: orange;
 }
 
-.menu ul {
-    display: flex;
-}
-
-.menu ul li {
-    list-style-type: none;
-}
-
-.menu ul li a {
-    padding: 10px;
-    text-decoration: none;
-}
-
-.menu ul li a:hover {
-   color: #faffff;
-}
 
 /*=======================================================================
 /                                   Main
@@ -78,13 +62,13 @@ main .title {
 }
 
 .right-side--img  {
-    display: block;
     width: 100%;
+    display: flex;
 }
 
 .right-side--img img  {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
 }
 
@@ -103,6 +87,7 @@ main .title {
 
 .contato {
     display: flex;
+    align-items: center;
 }
 
 .contato img {
@@ -143,6 +128,18 @@ main .title {
         flex-direction: column-reverse;
     }
 
+    .right-side--img  {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .right-side--img img  {
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+    }
+
 
     .contato {
     flex-direction: column;
@@ -154,4 +151,21 @@ main .title {
         margin-left: 0px;
         margin-bottom: 80px;
     }
+}
+
+@media (min-width:320px) and (max-width:800px) {
+
+
+    .right-side--img  {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .right-side--img img  {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+    }
+
 }
